@@ -52,28 +52,28 @@ export const communityStories = [
     name: "Gjorgi Dimitrov",
     role: "Apple Farmer",
     quote: "Switching to organic methods not only improved my soil but gave me hope that my children might return to farm this land.",
-    image: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=400&h=400&fit=crop"
+    image: "/images/image1.jpeg"
   },
   {
     id: 2,
     name: "Elena Petrova",
     role: "Youth Leader",
     quote: "Through these programs, I discovered my passion for environmental conservation and decided to stay in Prespa to make a difference.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop"
+    image: "/images/image2.jpeg"
   },
   {
     id: 3,
     name: "Ismail Ramadani",
     role: "Elder & Storyteller",
     quote: "I remember when the lake was fuller, the fish more abundant. Now I share these memories so youth understand what we must preserve.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+    image: "/images/image3.jpeg"
   },
   {
     id: 4,
     name: "Marija Angelova",
     role: "Women Entrepreneur",
     quote: "Starting my eco-tourism business helped me create jobs for other women while showcasing Prespa's natural beauty to the world.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop"
+    image: "/images/image4.jpeg"
   }
 ];
 
@@ -83,28 +83,28 @@ export const artGallery = [
     title: "Lake Reflections",
     artist: "Ana Stojanovic",
     type: "Photography",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+    image: "/images/image1.jpeg"
   },
   {
     id: 2,
     title: "Mountain Majesty",
     artist: "Dimitri Kostov",
     type: "Photography",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+    image: "/images/image2.jpeg"
   },
   {
     id: 3,
     title: "Apple Blossoms",
     artist: "Local Youth Collective",
     type: "Eco-Art",
-    image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&h=600&fit=crop"
+    image: "/images/image3.jpeg"
   },
   {
     id: 4,
     title: "Wetland Wonders",
     artist: "Sofia Dimova",
     type: "Photography",
-    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop"
+    image: "/images/image4.jpeg"
   },
   {
     id: 5,
@@ -144,7 +144,7 @@ export const blogPosts = [
     date: "March 15, 2025",
     category: "Success Stories",
     excerpt: "Twenty-five young people gathered for a three-day intensive workshop on sustainable agriculture, bringing fresh perspectives to traditional farming.",
-    image: "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=800&h=500&fit=crop"
+    image: "/images/image1.jpeg"
   },
   {
     id: 2,
@@ -152,7 +152,7 @@ export const blogPosts = [
     date: "March 10, 2025",
     category: "Environmental Tips",
     excerpt: "Recent measurements show promising signs of water quality improvement following reduced pesticide use in the region.",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=500&fit=crop"
+    image: "/images/image2.jpeg"
   },
   {
     id: 3,
@@ -160,7 +160,7 @@ export const blogPosts = [
     date: "March 5, 2025",
     category: "Event Reports",
     excerpt: "First-year organic farmers report successful harvests, proving sustainable methods can be both environmentally friendly and economically viable.",
-    image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&h=500&fit=crop"
+    image: "/images/image3.jpeg"
   },
   {
     id: 4,
@@ -168,7 +168,7 @@ export const blogPosts = [
     date: "February 28, 2025",
     category: "Environmental Tips",
     excerpt: "Small actions make big impacts. Learn how you can contribute to preserving our precious lake ecosystem in your daily life.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?w=800&h=500&fit=crop"
+    image: "/images/image4.jpeg"
   }
 ];
 
