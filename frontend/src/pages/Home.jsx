@@ -22,7 +22,7 @@ const Home = () => {
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
           <div className="mb-6 inline-block animate-fade-in">
             <img 
-              src="https://customer-assets.emergentagent.com/job_regional-hub-1/artifacts/u7o58h3f_649601293_1252947783087939_7402204054617215938_n-removebg-preview.png" 
+              src="https://customer-assets.emergentagent.com/job_regional-hub-1/artifacts/vt4twy86_Adobe%20Express%20-%20file.png" 
               alt="Pearl of Prespa" 
               className="h-32 w-32 mx-auto drop-shadow-2xl"
             />
