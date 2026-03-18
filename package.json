@@ -1,0 +1,12 @@
+{
+  "name": "pearl-of-prespa",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "build": "cd frontend && yarn build",
+    "start": "cd frontend && yarn start"
+  }
+}
