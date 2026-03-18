@@ -215,18 +215,36 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Placeholder */}
+      {/* Map Section */}
       <section className="py-20 bg-gradient-to-b from-green-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Visit Us</h2>
             <div className="w-24 h-1 bg-green-600 mx-auto mb-8"></div>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Lake Prespa is located in the tri-border region of North Macedonia, Albania, and Greece
+            </p>
           </div>
-          <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-            <div className="text-center text-gray-600">
-              <MapPin className="h-16 w-16 mx-auto mb-4 text-green-600" />
-              <p className="text-lg font-medium">Map Location</p>
-              <p className="text-sm">Prespa Region, North Macedonia</p>
+          <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
+            <iframe
+              src="https://www.openstreetmap.org/export/embed.html?bbox=20.8,40.7,21.2,41.0&layer=mapnik&marker=40.85,21.0"
+              width="100%"
+              height="500"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              title="Lake Prespa Location"
+              className="w-full"
+            ></iframe>
+            <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-6">
+              <div className="flex items-center justify-center gap-3">
+                <MapPin className="h-6 w-6" />
+                <div>
+                  <p className="font-bold text-lg">Lake Prespa</p>
+                  <p className="text-sm text-green-100">Tri-border region: North Macedonia, Albania & Greece</p>
+                  <p className="text-xs text-green-200 mt-1">Coordinates: 40.85°N, 21.0°E</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
