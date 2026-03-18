@@ -27,7 +27,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <img 
-              src="https://customer-assets.emergentagent.com/job_regional-hub-1/artifacts/hxkoomo9_649601293_1252947783087939_7402204054617215938_n.jpg" 
+              src="https://customer-assets.emergentagent.com/job_regional-hub-1/artifacts/u7o58h3f_649601293_1252947783087939_7402204054617215938_n-removebg-preview.png" 
               alt="Pearl of Prespa Logo" 
               className="h-14 w-14 transition-transform group-hover:scale-105"
             />
